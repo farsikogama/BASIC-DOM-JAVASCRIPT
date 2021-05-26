@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bermain Warna</title>
+<style>
+    body{
+        text-align: center;
+    }
+    .light-blue{
+        background-color: lightblue;
+    }
+
+    .slidermerah{
+        background-color: red;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    .sliderhijau{
+        background-color: green;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    .sliderbiru{
+        background-color: blue;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+
+
+
+</style>
+
+</head>
+<body>
+    <H1>Bermain Warna</H1>
+    <div id = "bUbahWarna">
+        <button type = "button" id="tUbahWarna">Ubah Warna</button>
+        <button type = "button" id="tAcakWarna">Acak Warna</button>
+        <br><br>
+
+        <section id="a">
+            <div class="slidermerah"></div>
+            <input type ="range" min="0" max="255" id="slidermerah">
+
+            <div class="sliderhijau"></div>
+            <input type ="range" min="0" max="255" id="sliderhijau">
+
+            <div class="sliderbiru"></div>
+            <input type ="range" min="0" max="255" id="sliderbiru">
+        </section>
+
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

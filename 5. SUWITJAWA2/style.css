@@ -1,0 +1,157 @@
+/* untuk menghilangkan margin default */
+/* pakai syntax dari eric mayer search di google */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* MULAI DI SINI */
+header{
+    text-align: center;
+    font: italic normal bolder 50px/60px Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+/* CONTAINER */
+.container {
+    width: 500px;
+    height:400px;
+    /* background-color: green; */
+    margin: 25px auto;
+    position: relative;
+}
+
+/* AREA KOMPUTER */
+.computer{
+    width: 500px;
+    height:200px;
+    background-color:aquamarine;
+    border: solid black;
+    box-sizing: border-box;
+}
+
+.listcomp{
+    margin: 45px auto;
+    text-align: center;
+    font: normal bold 16px/18px helvetica,sans-serif;
+    color: seashell;
+}
+
+.listcomp p{
+    color:black;
+    margin-bottom: 5px;
+}
+
+.pilcomp{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    /* float: right; */
+    display: inline-block;
+    margin: 0px 10px 0px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+
+/* AREA HASIL */
+.hasil{
+    width: 400px;
+    height: 50px;
+    margin: -25px auto;
+    /* right: auto; */
+    border: solid black;
+    font: bold 32px/45px arial,helvetica,sans-serif;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    left: 50px;
+    right: 50px;
+    box-sizing: border-box;
+}
+
+/* AREA PLAYER */
+.player {
+    width: 500px;
+    height:200px;
+    background-color: cadetblue;
+    margin-top: -2px;
+    border: solid black;
+    /* padding: 5px; */
+    box-sizing: border-box;
+}
+.listplayer{
+    margin: 55px auto;
+    text-align: center;
+    font: normal bold 16px/18px helvetica,sans-serif;
+    color: black;
+}
+
+.listplayer p{
+    color:black;
+    margin-bottom: 5px;
+}
+
+.TANGAN,.GAJAH,.SEMUT{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0px 10px 0px;
+    background-color: blanchedalmond;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+/* pakai java script juga bisa tapi panjang. cek file di script.js*/
+.TANGAN:hover,.GAJAH:hover,.SEMUT:hover{
+    background-color: yellow;
+    color: black;
+}
