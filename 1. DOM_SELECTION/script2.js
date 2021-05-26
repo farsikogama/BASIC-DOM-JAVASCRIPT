@@ -8,9 +8,9 @@ const p = document.querySelectorAll('p') // menghasilkan nodelist / array. jadi 
 
 p[2].style.backgroundColor = 'lightblue'
 
-//merubah node root
-const sectionb = document.getElementById('b')
+//merubah node root dari document.getElementBy jadi ... customNode.getElementBy...
+const sectionB = document.getElementById('b')
 
-const li = sectionb.querySelectorAll('li')
+const li = sectionB.querySelectorAll('li') // ambilnya sectionB, bukan document
 
 li[0].style.backgroundColor = 'green'
