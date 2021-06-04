@@ -1,4 +1,6 @@
-//DOM SELECTION
+//DOM SELECTION - Latihan
+// select item-item terus console
+
 //document.getElementById() -> mengembalikan element
 
 // create variable untuk menampung doc nya. pakai const i/o var supaya ga berubah
