@@ -9,9 +9,9 @@ judul.style.color = 'red' //rubah warna text
 judul.style.backgroundColor = '#eaeaea' //rubah background
 judul.innerHTML = 'Farsiko Gama' //rubah text
 
-// Document.getElementByTagName(). mesti pakai index untuk manggil element yg dimau karena get elements by tag name bentuknya array. klo ga mau jadi array pas panggil tag name, panggil aja pakai query selector
+// Document.getElementsByTagName(). Mesti pakai index untuk manggil element yg dimau karena get elements by tag name bentuknya BUKAN array. Ga bisa di forEach dan method array yang lainnya tapi bisa di loop. Klo ga mau jadi array, pas panggil tag name panggil pakai query selector
 // HTML Colection
-const p = document.getElementsByTagName('p') // mengembalikan HTML Collection - Bukan Array, ga bisa di forEach tapi bisa di loop
+const p = document.getElementsByTagName('p') // mengembalikan HTML Collection - Bukan Array,
 // rubah warna jadi merah untuk elemtn pe index[2]
 p[2].style.backgroundColor = 'red'
 
@@ -27,8 +27,7 @@ for (i = 0; i < p.length; i++) {
 //   e.style.backgroundColor = 'lightblue'
 // })
 
-// document.getElementsByClassName() - bentuknya array, jadi harus dipanggil menggunakan index
-// HTML Collection
+// document.getElementsByClassName() - bentuknya HTML Collection, jadi harus dipanggil menggunakan index
 const p1 = document.getElementsByClassName('p1') // mengembalikan HTML Collection - Bukan Array. Jaid ga bisa di forEach tapi bisa di loop for
 
 p1[0].innerHTML = prompt('masukkan sembarang')

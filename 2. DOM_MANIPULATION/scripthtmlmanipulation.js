@@ -16,7 +16,7 @@ p1[0].style.backgroundColor = 'lightblue'
 const p3 = document.querySelector('section#b p')
 p3.style.backgroundColor = 'lightgreen'
 
-//MERUBAH Atribut pada elemen
+//MERUBAH Attribut pada elemen
 const p4 = document.querySelectorAll('section#a p')[2]
 p4.setAttribute('name', 'gama')
 //cek di inspect element gimana jadinya. Tapi ini ga bisa dipakai set class kalau class nya sudah ada. jadinya akan nimpa
